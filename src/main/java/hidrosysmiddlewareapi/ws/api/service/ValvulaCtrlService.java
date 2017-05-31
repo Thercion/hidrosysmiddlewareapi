@@ -14,7 +14,8 @@ public class ValvulaCtrlService {
 	@Path("/desativarAbastecimento")
 	@Consumes({MediaType.APPLICATION_JSON})
 	public void desativarAbastecimento(CoordenadorVO coordenadorVO){
-		System.out.println(coordenadorVO.getMacCoordenador()); 
+		System.out.println(coordenadorVO.getMacCoordenador());
+		coordenadorVO.getEmpresaId();
 	}
 
 	@POST

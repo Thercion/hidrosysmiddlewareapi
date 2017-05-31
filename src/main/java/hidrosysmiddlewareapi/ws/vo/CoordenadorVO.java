@@ -6,8 +6,16 @@ public class CoordenadorVO {
 	private String macDispositivo;
 	private String endPoint;
 	private String empresaId;
+	private String idLogico;
 	
 	
+	
+	public String getIdLogico() {
+		return idLogico;
+	}
+	public void setIdLogico(String idLogico) {
+		this.idLogico = idLogico;
+	}
 	public String getMacCoordenador() {
 		return macCoordenador;
 	}
